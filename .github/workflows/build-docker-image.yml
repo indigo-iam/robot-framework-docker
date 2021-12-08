@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: indigoiam/robot-framework-docker
+          images: indigoiam/robot-framework
           flavor: latest=true
           tags: |
             type=sha
