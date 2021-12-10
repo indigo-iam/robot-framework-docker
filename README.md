@@ -2,7 +2,7 @@
 
 This repo provides a Docker image for [Robot framework][robot]-based test suites. 
 
-The image, besides a recent, python3 based Robot framework enviornment, provides tools commonly used in WLCG data management:
+The image, besides a recent, python3 based Robot framework environment, provides tools commonly used in WLCG data management:
 
 - jq
 - oidc-agent
