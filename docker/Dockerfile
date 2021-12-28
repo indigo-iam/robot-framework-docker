@@ -9,7 +9,7 @@ ENV TEST_USER_UID $TEST_USER_UID
 RUN   yum clean all && \
       yum install -y hostname epel-release && \
       yum -y update && \
-      yum -y install which wget tar gcc openssl-devel sudo file make which python36 && \
+      yum -y install git which wget tar gcc openssl-devel sudo file make python36 && \
       echo '%wheel ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers && \
       adduser --uid ${TEST_USER_UID} ${TEST_USER} && \
       usermod -a -G wheel ${TEST_USER} && \
