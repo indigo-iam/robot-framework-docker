@@ -39,6 +39,7 @@ RUN yum -y install voms-clients-java gfal2-util gfal2-all gfal2-python davix jq 
     yum install -y oidc-agent && \
     pip3 install --upgrade pip && \
     pip3 install --upgrade robotframework-httplibrary && \
+    pip3 install --upgrade robotframework-jsonlibrary && \
     pip3 install --upgrade oic && \
     pip3 install --upgrade requests && \
     pip3 install --upgrade pyyaml && \
