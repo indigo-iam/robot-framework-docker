@@ -7,7 +7,7 @@ ENV TEST_USER $TEST_USER
 ENV TEST_USER_UID $TEST_USER_UID
 
 RUN   yum clean all && \
-      yum install -y hostname epel-release && \
+      yum install -y hostname epel-release attr which && \
       yum -y update && \
       yum -y install git which wget tar gcc openssl-devel sudo file make python36 && \
       echo '%wheel ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers && \
